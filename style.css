@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------------------header-------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+
+    width: 100%;
+    height: 48px;
+
+    background: #1d1d1d;
+}
+
+.container-logo {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/*------------------------------logo-------------------------------*/
+
+
+/*------------------------------container-------------------------------*/
+
+.container {
+    height: 100vh;
+    max-width: 1152px;
+    margin: 0 auto;
+
+    /* background-color: #303030; */
+}
+
+/*------------------------------section-------------------------------*/
+
+
+.section {
+    height: fit-content;
+    width: 1152px;
+    margin: 0 auto;
+
+    /* background-color: #292929; */
+}
+
+/*------------------------------section-title-------------------------------*/
+
+.section-title{
+    margin-bottom: 29px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+/*------------------------------playlist-------------------------------*/
+
+
+.playlist {
+    padding: 24px;
+   
+    background-color: #1D1D1D;
+
+}
+
+/*------------------------------playlist-title-------------------------------*/
+
+.playlist-title {
+    margin-bottom: 30px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+/*------------------------------slider-------------------------------*/
+
+.slider {
+    display: flex;
+
+    width: 100%;
+
+    overflow-x: auto;
+    overflow-x: hidden;
+    
+}
+
+/*------------------------------slide-------------------------------*/
+
+.slide {
+    margin-right: 24px;
+}
+
+/*------------------------------slide-video-------------------------------*/
+
+.slide-video {
+    height: 252px;
+    width: 352px;
+
+    margin-bottom: 6px;
+}
+
+/*------------------------------description-link-------------------------------*/
+
+
+.description-link {
+    margin-bottom: 12px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/*------------------------------link-channel-------------------------------*/
+
+
+.link-channel {
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #969696;
+}
+
+/*------------------------------video-published-------------------------------*/
+
+
+.video-published {
+    display: block;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #969696;
+}
+
+
+
+
+
+
+
+
+    
