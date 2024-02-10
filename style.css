@@ -5,6 +5,9 @@
 }
 
 body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
     background-color: #0f0f0f;
 }
 
@@ -60,7 +63,7 @@ a {
     margin-bottom: 29px;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     line-height: 36px;
 
@@ -71,6 +74,7 @@ a {
 
 
 .playlist {
+    
     padding: 24px;
    
     background-color: #1D1D1D;
@@ -83,7 +87,7 @@ a {
     margin-bottom: 30px;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     line-height: 29px;
 
@@ -111,8 +115,8 @@ a {
 /*------------------------------slide-video-------------------------------*/
 
 .slide-video {
-    height: 252px;
     width: 352px;
+    height: 252px;
 
     margin-bottom: 6px;
 }
