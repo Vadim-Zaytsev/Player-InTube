@@ -2,13 +2,13 @@ export function renderPlaylist(anyPlaylist) {
     const section = document.querySelector('.section');
 
     const playlistHTML = `<div class="playlist">
-    <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DMufolk_eudZOuchfsG2hRT" target="_blank">
+    <a href="${anyPlaylist.linkPlaylist}" target="_blank">
     <h2 class="playlist-title">${anyPlaylist.namePlaylist}</h2>
     </a>
 
 <div class="slider">
     <div class="slide">
-        <video class="slide-video" controls>
+        <video class="slide-video" controls poster="${anyPlaylist.video[0].posterUrl}">
             <source src="${anyPlaylist.video[0].url}" type="video/mp4" />
         </video>
 
@@ -24,7 +24,7 @@ export function renderPlaylist(anyPlaylist) {
         <span class="video-published">${anyPlaylist.video[0].publicationDate}</span>
     </div>
     <div class="slide">
-        <video class="slide-video" controls>
+        <video class="slide-video" controls poster="${anyPlaylist.video[1].posterUrl}">
             <source src="${anyPlaylist.video[1].url}" type="video/mp4" />
         </video>
 
@@ -40,7 +40,7 @@ export function renderPlaylist(anyPlaylist) {
         <span class="video-published">${anyPlaylist.video[1].publicationDate}</span>
     </div>
     <div class="slide">
-        <video class="slide-video" controls>
+        <video class="slide-video" controls poster="${anyPlaylist.video[2].posterUrl}">
             <source src="${anyPlaylist.video[2].url}" type="video/mp4" />
         </video>
 

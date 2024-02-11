@@ -1,6 +1,7 @@
 export class Video {
-    constructor(url, description, channelName, publicationDate) {
+    constructor(url, posterUrl, description, channelName, publicationDate) {
         this.url = url;
+        this.posterUrl = posterUrl;
         this.description = description;
         this.channelName = channelName;
         this.publicationDate = this.CreateDatePublication(publicationDate);
