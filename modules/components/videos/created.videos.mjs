@@ -32,7 +32,7 @@ export const videosArr = [JavaScriptZero, JavaScriptOne, JavaScriptTwo];
 
 const BackEndOne = new Video(
     'assets/videos/01_-_Введение_Back-end_-_Путь_Самурая.mp4',
-'assets/images/posters/hqdefaultBack[1].jpg',
+    'assets/images/posters/hqdefaultBack[1].jpg',
     '01 - Введение Back-end - Путь Самурая',
     'it-kamasutra',
     '27.01.2022'
@@ -40,7 +40,7 @@ const BackEndOne = new Video(
 
 const BackEndTwo = new Video(
     'assets/videos/02_-_front-end_vs_back-end,_что_выбрать_Back-end_-_Путь_Самурая.mp4',
-'assets/images/posters/hqdefaultBack[2].jpg',
+    'assets/images/posters/hqdefaultBack[2].jpg',
     '02 - front-end vs back-end, что выбрать Back-end - Путь Самурая',
     'it-kamasutra',
     '03.02.2022'
@@ -48,7 +48,7 @@ const BackEndTwo = new Video(
 
 const BackEndThree = new Video(
     'assets/videos/03_-_HTTP_Back-end_-_Путь_Самурая_Как_стать_программистом.mp4',
-'assets/images/posters/hqdefaultBack[3].jpg',
+    'assets/images/posters/hqdefaultBack[3].jpg',
     '03 - HTTP Back-end - Путь Самурая Как стать программистом',
     'it-kamasutra',
     '10.02.2022'

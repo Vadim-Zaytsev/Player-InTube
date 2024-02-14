@@ -5,6 +5,11 @@ export class Video {
         this.description = description;
         this.channelName = channelName;
         this.publicationDate = this.CreateDatePublication(publicationDate);
+        this.id = this.createId();
+    }
+
+    createId() {
+        return Math.floor(Math.random() * 10000) + 1;
     }
 
     // вывод даты публикации

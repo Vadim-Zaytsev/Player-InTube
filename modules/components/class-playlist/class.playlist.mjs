@@ -3,5 +3,10 @@ export class Playlist {
         this.namePlaylist = namePlaylist;
         this.linkPlaylist = linkPlaylist;
         this.video = video;
+        this.id = this.createId();
+    }
+
+    createId() {
+        return Math.floor(Math.random() * 1000000) + 1;
     }
 }

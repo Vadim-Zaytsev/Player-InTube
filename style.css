@@ -90,6 +90,8 @@ a:hover {
 /*------------------------------playlist-title-------------------------------*/
 
 .playlist-title {
+    display: inline-block;
+
     margin-bottom: 30px;
 
     font-style: normal;
@@ -131,6 +133,8 @@ a:hover {
 
 
 .description-link {
+    display: inline-block;
+
     margin-bottom: 12px;
 
     font-style: normal;
@@ -145,7 +149,7 @@ a:hover {
 
 
 .link-channel {
-    display: block;
+    display: inline-block;
 
     margin-bottom: 12px;
 
