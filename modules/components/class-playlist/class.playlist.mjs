@@ -3,10 +3,15 @@ export class Playlist {
         this.namePlaylist = namePlaylist;
         this.linkPlaylist = linkPlaylist;
         this.video = video;
-        this.id = this.createId();
+        this.id = `${this.createId()}${++Playlist.playlistCounter}`;
     }
 
     createId() {
-        return Math.floor(Math.random() * 1000000) + 1;
+        return `PL${this.namePlaylist
+            .split(' ')
+            .map((el) => el[0])
+            .join('')}`;
     }
+
+    static playlistCounter = 0;
 }
